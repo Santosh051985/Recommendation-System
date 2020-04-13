@@ -1,4 +1,3 @@
-# Recommendation-System
-Recommender systems aim to predict users’ interests and recommend product items that quite likely are interesting for them. They are among the most powerful machine learning systems that online retailers implement in order to drive sales.
-
-Data required for recommender systems stems from explicit user ratings after watching a movie or listening to a song, from implicit search engine queries and purchase histories, or from other knowledge about the users/items themselves.
+# Movie-recommendation-system-with-Python
+Basic recommendation system by suggesting movies that are most similar to a particular movie.
+Used sample of this [database](https://grouplens.org/datasets/movielens/) to built the system, which is not a robust one, just tells you which movies are more similar to your movie of choice.
