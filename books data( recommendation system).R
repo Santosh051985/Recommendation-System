@@ -24,7 +24,7 @@ books_data_model1 <- Recommender(books_data_matrix, method="POPULAR")
 recommended_items1 <- predict(books_data_model1, books_data_matrix[1], n=5)
 as(recommended_items1, "list")
 
-# here based on the  given  authores "2" "3" "4" "5" "6"
+# Here based on the  given  authores "2" "3" "4" "5" "6"
 
 ?Recommender
 ## Popularity model recommends the same movies for all users , we need to improve our model using # # Collaborative Filtering
