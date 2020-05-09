@@ -1,6 +1,7 @@
-#Installing and loading the libraries
+#Installing the libraries
 install.packages("recommenderlab", dependencies=TRUE)
 install.packages("Matrix")
+#Loading the libraries
 library(recommenderlab)
 library(caTools)
 
